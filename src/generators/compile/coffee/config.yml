@@ -1,0 +1,12 @@
+development: &default
+  enabled: true
+  minimize: false
+  source: 'src/assets/scripts'
+  target: 'dist/scripts'
+  selector: '**/*.coffee'
+
+test:
+  <<: *default
+
+production:
+  <<: *default
