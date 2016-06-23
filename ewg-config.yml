@@ -26,7 +26,7 @@ development: &default
 
   # do not change unless you know why ;)
   generators:
-    folder: 'src/generators'
+    folder: './ewg'
 
   paths:
     src:
