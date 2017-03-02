@@ -19,16 +19,13 @@ First you need to install [nodeJs](https://nodejs.org/en/download/)
 
 ```
 
-npm install -g easy-website-generator
+npm install -g easy-website-generator gulp coffee-script
 
 mkdir my-workspace
 
 cd my-workspace
 
 ewg init --theme simple
-
-npm install -g coffee-script
-npm install --cached
 
 ewg serve
 

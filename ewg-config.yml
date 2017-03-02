@@ -46,7 +46,6 @@ development: &default
 
   template:
     run_after_copy:
-      # read the README.md for the moment you have to doit manually
       - 'npm install'
 
 test:
